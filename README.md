@@ -1,1 +1,3 @@
-# qwertyflagstop.github.io
+# qwertyflagsite
+
+Personal website mostly processing sketches
