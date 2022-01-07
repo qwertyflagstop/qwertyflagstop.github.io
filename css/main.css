@@ -16,6 +16,9 @@ html {
   font-size: 1em;
   line-height: 1.4;
 }
+body {
+  overflow: hidden;
+}
 
 /*
  * Remove text-shadow in selection highlight:
