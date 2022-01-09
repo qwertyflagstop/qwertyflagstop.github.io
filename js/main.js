@@ -53,8 +53,7 @@ function draw() {
     if (mouseIsPressed) {
         let jx = px - mouseX;
         let jy = py - mouseY;
-        let dmag = Math.sqrt(jx * jx + jy * jy)
-
+        let dmag = Math.sqrt(jx * jx + jy * jy);
         if (dmag > 30) {
             dx -= jx * 0.025;
             dy -= jy * 0.025;
