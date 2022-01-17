@@ -113,7 +113,7 @@ function draw() {
     strokeWeight(0);
     rect(0, 0, windowWidth, windowHeight);
     let vol = mic.getLevel(0.01);
-    if (vol>0.02 && frameCount-last_firwork_frame_time>30) {
+    if (vol>0.02 && frameCount-last_firwork_frame_time>5) {
         addFirework(Math.random() * windowWidth * 0.9 + windowWidth * 0.1,
                 Math.random() * windowHeight * 0.5);
         last_firwork_frame_time = frameCount;
