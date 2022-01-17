@@ -125,6 +125,10 @@ function mouseClicked() {
     addFirework(Math.random() * windowWidth * 0.9 + windowWidth * 0.1,
         Math.random() * windowHeight * 0.5);
 }
+function touchStarted() {
+  addFirework(Math.random() * windowWidth * 0.9 + windowWidth * 0.1,
+        Math.random() * windowHeight * 0.5);
+}
 
 function windowResized() {
     resizeCanvas(windowWidth, windowHeight);
